@@ -34,7 +34,6 @@ app.get('/users/view/:id', function(req, res) {
  });
 });
 
-
 app.get('/baseball', (req, res) => {
   var title = 'Baseball Page';
   res.render('pages/baseball',{'title':title});
